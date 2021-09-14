@@ -1,0 +1,25 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "CookieIndex";
+}
+
+<h1>CookieIndex</h1>
+
+@if (!string.IsNullOrWhiteSpace(Model))
+{
+    @:<div>Cookie data: @Model</div>
+    @Html.ActionLink("Clear Cookie", "RemoveCookie")
+}
+else
+{
+    @:
+    <form asp-action="CookieIndex">
+        <label>Enter cookie data:</label>
+        @Html.TextBox("form_data")
+        <div class="form-group">
+            <input type="submit" value="Save cookie data" class="btn btn-primary" />
+        </div>
+
+    </form>
+}

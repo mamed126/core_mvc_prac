@@ -1,0 +1,6 @@
+﻿cookies - max length 4mb
+session state - services.AddSession(); add to ConfigureServices ;
+                app.UseSession(); add to configure ;
+query string
+hidden field
+tempdata
