@@ -1,6 +1,6 @@
 using System;
 
-namespace TruckSaleWithEF.Models
+namespace TruckSaleWithEF2.Models
 {
     public class ErrorViewModel
     {

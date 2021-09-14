@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using TruckSaleWithEF.Models;
+using TruckSaleWithEF2.Models;
 
-namespace TruckSaleWithEF.Controllers
+namespace TruckSaleWithEF2.Controllers
 {
     public class HomeController : Controller
     {

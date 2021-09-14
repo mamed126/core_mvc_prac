@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TruckSaleWithEF
+namespace TruckSaleWithEF2
 {
     public class Startup
     {

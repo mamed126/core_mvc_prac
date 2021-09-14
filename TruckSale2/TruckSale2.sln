@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckSale2", "TruckSale2\TruckSale2.csproj", "{F81E5E90-4AAE-4DB6-87BB-34A10B81DB66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckSaleWithEF", "..\TruckSaleWithEF\TruckSaleWithEF.csproj", "{159F2634-5D53-4C43-875A-0D4DDB7E2FF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckSaleWithEF2", "..\TruckSaleWithEF2\TruckSaleWithEF2.csproj", "{063D8630-2122-4340-9185-EBB3D82E77D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F81E5E90-4AAE-4DB6-87BB-34A10B81DB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F81E5E90-4AAE-4DB6-87BB-34A10B81DB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F81E5E90-4AAE-4DB6-87BB-34A10B81DB66}.Release|Any CPU.Build.0 = Release|Any CPU
-		{159F2634-5D53-4C43-875A-0D4DDB7E2FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{159F2634-5D53-4C43-875A-0D4DDB7E2FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{159F2634-5D53-4C43-875A-0D4DDB7E2FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{159F2634-5D53-4C43-875A-0D4DDB7E2FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063D8630-2122-4340-9185-EBB3D82E77D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063D8630-2122-4340-9185-EBB3D82E77D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063D8630-2122-4340-9185-EBB3D82E77D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063D8630-2122-4340-9185-EBB3D82E77D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
