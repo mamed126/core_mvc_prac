@@ -110,3 +110,4 @@ E:\src\.net_src\core_mvc_practise\TruckSale2\TruckSale2\obj\Debug\netcoreapp3.1\
 E:\src\.net_src\core_mvc_practise\TruckSale2\TruckSale2\obj\Debug\netcoreapp3.1\TruckSale2.dll
 E:\src\.net_src\core_mvc_practise\TruckSale2\TruckSale2\obj\Debug\netcoreapp3.1\TruckSale2.pdb
 E:\src\.net_src\core_mvc_practise\TruckSale2\TruckSale2\obj\Debug\netcoreapp3.1\TruckSale2.genruntimeconfig.cache
+E:\src\.net_src\core_mvc_practise\TruckSale2\TruckSale2\obj\Debug\netcoreapp3.1\TruckSale2.csproj.AssemblyReference.cache
