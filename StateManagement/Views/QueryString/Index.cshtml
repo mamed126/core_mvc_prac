@@ -1,0 +1,21 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if (!string.IsNullOrWhiteSpace(Model))
+{
+<div>
+    <a>Data from query string:@Model</a>
+</div>
+}
+else
+{
+    <div>
+        <a>
+            Empty query string
+        </a>
+    </div>
+}

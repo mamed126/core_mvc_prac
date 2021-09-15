@@ -1,0 +1,25 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Session demo</h1>
+
+@if (!string.IsNullOrWhiteSpace(Model))
+{
+    @:<div>Session data: @Model</div>
+    @Html.ActionLink("Clear Sessions", "RemoveSession")
+}
+else
+{
+    @:
+    <form asp-action="Index">
+        <label>Enter session data:</label>
+        @Html.TextBox("form_data")
+        <div class="form-group">
+            <input type="submit" value="Save session data" class="btn btn-primary" />
+        </div>
+
+    </form>
+}
+
