@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TruckSaleWithEF2", "..\Truc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateManagement", "..\StateManagement\StateManagement.csproj", "{6AC0A719-2C9D-4AFD-BA21-AE9199F96937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploadDemo", "..\FileUploadDemo\FileUploadDemo.csproj", "{4F463DB0-26E1-485A-A9CC-10C9F5342550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploadDemo", "..\FileUploadDemo\FileUploadDemo.csproj", "{4F463DB0-26E1-485A-A9CC-10C9F5342550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionDemo", "..\DependencyInversionDemo\DependencyInversionDemo.csproj", "{14DB1583-AAD9-4E64-8BE8-258D91B6F48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionDemo", "..\DependencyInversionDemo\DependencyInversionDemo.csproj", "{14DB1583-AAD9-4E64-8BE8-258D91B6F48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiltersDemo", "..\FiltersDemo\FiltersDemo.csproj", "{FFE16F5C-9157-4A96-9174-9833DF051F2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{14DB1583-AAD9-4E64-8BE8-258D91B6F48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DB1583-AAD9-4E64-8BE8-258D91B6F48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DB1583-AAD9-4E64-8BE8-258D91B6F48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE16F5C-9157-4A96-9174-9833DF051F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE16F5C-9157-4A96-9174-9833DF051F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE16F5C-9157-4A96-9174-9833DF051F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE16F5C-9157-4A96-9174-9833DF051F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
