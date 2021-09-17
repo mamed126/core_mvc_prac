@@ -1,1 +1,25 @@
-﻿
+﻿Filters in ASP.NET Core MVC allows us to run certain actions before or after specific stages in the request 
+processing pipeline.
+
+There are some built-in filters in ASP.NET Core. We can also write custom filters to execute actions at various 
+stages of the request pipeline. 
+
+Filter types:
+
+Each filter type is executed at a different stage in the request pipeline.
+
+Authorization filters are run first and are used to determine whether the current user is authorized for the 
+current request. They can short-circuit the pipeline if a request is unauthorized.
+
+Resource filters come right after the authorization. We can use it to implement caching or short-circuit the 
+filter pipeline for performance reasons. A common usage of this type of filter is the implementation of Caching. 
+This can avoid the rest of the pipeline when a Cache hit happens.
+
+Action filters can run code immediately before and after an individual action method is called. We can use it 
+to manipulate the arguments passed into action and the result returned from the action. Razor Pages do not support
+Action filters.
+
+Exception filters are used to globally handle all unhandled exceptions that occur in the application.
+
+Result filters can run code immediately before and after the execution of individual action results. They run 
+only when the action method has executed successfully. 
