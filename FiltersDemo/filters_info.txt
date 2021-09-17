@@ -20,6 +20,8 @@ to manipulate the arguments passed into action and the result returned from the 
 Action filters.
 
 Exception filters are used to globally handle all unhandled exceptions that occur in the application.
+1.createing custom exception filter in filters folder, then set configureServices method, 
+add view for error in shared folder;
 
 Result filters can run code immediately before and after the execution of individual action results. They run 
 only when the action method has executed successfully. 
