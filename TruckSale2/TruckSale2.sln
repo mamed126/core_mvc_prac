@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionDemo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiltersDemo", "..\FiltersDemo\FiltersDemo.csproj", "{FFE16F5C-9157-4A96-9174-9833DF051F2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingDemo", "..\CachingDemo\CachingDemo.csproj", "{05D4CAB5-BFA3-4F67-A192-4768C89C5EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CachingDemo", "..\CachingDemo\CachingDemo.csproj", "{05D4CAB5-BFA3-4F67-A192-4768C89C5EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxCallDemo", "..\AjaxCallDemo\AjaxCallDemo.csproj", "{C58D6F1D-0C4F-49B3-ABBC-00F908683493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{05D4CAB5-BFA3-4F67-A192-4768C89C5EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D4CAB5-BFA3-4F67-A192-4768C89C5EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D4CAB5-BFA3-4F67-A192-4768C89C5EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58D6F1D-0C4F-49B3-ABBC-00F908683493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58D6F1D-0C4F-49B3-ABBC-00F908683493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58D6F1D-0C4F-49B3-ABBC-00F908683493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58D6F1D-0C4F-49B3-ABBC-00F908683493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
